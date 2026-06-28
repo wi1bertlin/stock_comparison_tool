@@ -8,53 +8,55 @@ The goal is to demonstrate basic financial data analysis using real market data.
 ---
 
 ## Features
-- Input multiple stock tickers  
-- Download historical data using yfinance  
-- Calculate total return for each stock  
-- Rank stocks by performance  
-- Identify the best performing stock  
-- Visualize results using a bar chart  
+- Input multiple stock tickers
+- Download historical data using yfinance
+- Calculate total return for each stock
+- Rank stocks by performance
+- Identify the best-performing stock
+- Visualise results using a bar chart
 
 ---
 
 ## How It Works
-The program:
-1. Takes user input for stock tickers and date range  
-2. Downloads historical closing prices  
-3. Calculates total return:  
-   (Final Price - Initial Price) / Initial Price  
-4. Stores and compares results  
-5. Displays performance and ranking  
+The notebook:
+1. Takes user input for stock tickers and a date range
+2. Downloads historical closing prices
+3. Calculates total return
+4. Stores and compares the results
+5. Displays the performance ranking
 
 ---
 
 ## Example Output
-AAPL: 12.34%  
-TSLA: 18.56%  
-NVDA: 35.12%  
+AAPL: 12.34%
 
-Best performing stock: NVDA  
+TSLA: 18.56%
+
+NVDA: 35.12%
+
+Best-performing stock: NVDA
 
 ---
 
 ## Technologies Used
-- Python  
-- yfinance  
-- matplotlib  
+- Python
+- Jupyter Notebook
+- yfinance
+- matplotlib
 
 ---
 
 ## How to Run
 
-1. Install required libraries:
+1. Install the required libraries:
 
-    pip install yfinance matplotlib
+    pip install -r requirements.txt
 
-2. Run the notebook:
+2. Open the notebook:
 
     stock_comparison_tool.ipynb
 
-3. Enter stock tickers and dates when prompted  
+3. Enter the stock tickers and dates when prompted
 
 ---
 
